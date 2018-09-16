@@ -1,0 +1,31 @@
+{
+  "name": "sacha_the_scheduler",
+  "version": "1.0.0",
+  "description": "Sacha 2.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/everythingaud/SachaTheScheduler.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+   "@slack/client": "^3.10.0",
+   "axios": "^0.16.2",
+   "body-parser": "^1.x.x",
+   "express": "^4.x.x",
+   "nodemon": "^1.11.0",
+   "google-auth-library": "^0.10.0",
+   "googleapis": "^20.1.0",
+   "mongoose": "^4.11.3",
+   "request": "2.56.x"
+ },
+  "bugs": {
+    "url": "https://github.com/everythingaud/SachaTheScheduler/issues"
+  },
+  "homepage": "https://github.com/everythingaud/SachaTheScheduler#readme"
+}
